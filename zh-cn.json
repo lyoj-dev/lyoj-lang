@@ -1,0 +1,382 @@
+{
+    "title":{
+        "index":"首页",
+        "problem":"题库",
+        "contest":"比赛",
+        "status":"评测",
+        "admin":"管理",
+        "logout":"注销",
+        "login":"登录",
+        "register":"注册",
+        "user":"用户",
+        "error":"错误"
+    },
+    "path":{
+        "index":"<i class=\"home icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">首页</div>",
+        "problem":"<i class=\"list icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">题库</div>",
+        "contest":"<i class=\"calendar icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">比赛</div>",
+        "status":"<i class=\"tasks icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">评测</div>",
+        "admin":"<i class=\"user icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">管理</div>",
+        "logout":"<i class=\"power icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">注销</div>",
+        "login":"<i class=\"arrow circle right right icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">登录</div>",
+        "register":"<i class=\"hand point right icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">注册</div>"
+    },
+    "pages":{
+        "index":{
+            "announcement":"系统公告"
+        },
+        "problem":{
+            "search-box":{
+                "search-placeholder":"键入以搜索......",
+                "tags-filter":"题目标签",
+                "difficult-filter":"题目难度",
+                "search-button":"搜索"
+            },
+            "pages":{
+                "top":"首页",
+                "previous":"上页",
+                "next":"下页",
+                "bottom":"尾页"
+            },
+            "simple-info":{
+                "time":"<p style=\"font-size:15px;font-family:'Exo 2'\">时间限制</p>",
+                "memory":"<p style=\"font-size:15px;font-family:'Exo 2'\">空间限制</p>",
+                "input":"<p style=\"font-size:15px;font-family:'Exo 2'\">输入文件</p>",
+                "output":"<p style=\"font-size:15px;font-family:'Exo 2'\">输出文件</p>",
+                "no-test-data":"<p style=\"font-size:15px;font-family:'Exo 2'\">无数据</p>"
+            },
+            "info":{
+                "background":"题目背景",
+                "description":"题目描述",
+                "input":"输入格式",
+                "output":"输出格式",
+                "sample":"测试样例",
+                "sample-input":"样例输入",
+                "sample-output":"样例输出",
+                "hint":"数据范围与提示",
+                "additional-files":"附加文件",
+                "submit":"提交",
+                "my-submit":"我的提交",
+                "language":"选择代码语言",
+                "submit-button":"提交"
+            }
+        },
+        "status":{
+            "search-box":{
+                "user-filter":"用户名",
+                "user-filter-placeholder":"在此键入用户名",
+                "problem-filter":"题目编号",
+                "problem-filter-placeholder":"在此键入题目编号",
+                "search-button":"搜索"
+            },
+            "pages":{
+                "top":"首页",
+                "previous":"上页",
+                "next":"下页",
+                "bottom":"尾页"
+            },
+            "code":{
+                "code":"代码",
+                "copy":"复制",
+                "rejudge":"重测"
+            },
+            "compile-info":{
+                "compile-info":"编译信息"
+            },
+            "info":{
+                "subtask":"子任务",
+                "subtask-score":"得分",
+                "test-case":"测试点",
+                "score":"得分",
+                "memory":"内存",
+                "time":"用时"
+            }
+        },
+        "contest":{
+            "list":{
+                "not-start":"未开始",
+                "running":"进行中",
+                "finished":"已结束",
+                "problem":"题目数量: $$num$$"
+            },
+            "pages":{
+                "top":"首页",
+                "previous":"上页",
+                "next":"下页",
+                "bottom":"尾页"
+            },
+            "info":{
+                "time":"<p style=\"font-size:15px;font-family:'Exo 2'\">比赛时间</p>",
+                "signup":"<p style=\"font-size:15px;font-family:'Exo 2'\">报名人数</p>",
+                "problem":"<p style=\"font-size:15px;font-family:'Exo 2'\">题目数量</p>",
+                "button":{
+                    "signup":"报名",
+                    "index":"首页",
+                    "problem":"题目",
+                    "submission":"提交",
+                    "ranking":"排名",
+                    "download-ranking":"下载排名"
+                }
+            },
+            "index":{
+                "title":"比赛简介"
+            },
+            "contest":{
+                "rank":"排名",
+                "username":"用户名",
+                "score":"得分",
+                "time":"罚时"
+            }
+        },
+        "user":{
+            "info":{
+                "submitted":"共进行 $$num$$ 次提交",
+                "solved":"解决了 $$num$$ 道问题",
+                "sontest":"参与了 $$num$$ 场比赛",
+                "rating":"当前评分: $$num$$ (上次更新: $$time$$)"
+            },
+            "button":{
+                "introduction":"个人介绍",
+                "solved-problem":"已通过问题",
+                "contest-history":"比赛记录",
+                "setting":"个人设定"
+            },
+            "intro":{
+                "none":"<p style=\"font-size:15px\">该用户太懒了, 什么都没留下</p>"
+            },
+            "problem":{
+                "none":"<p style=\"font-size:15px\">该用户太懒了, 什么都没留下</p>"
+            },
+            "contest":{
+                "date":"比赛时间",
+                "contest":"比赛名",
+                "rank":"排名",
+                "all":"总人数",
+                "diff":"评分变化",
+                "none":"<p style=\"font-size:15px\">该用户太懒了, 什么都没留下</p>"
+            },
+            "setting":[
+                {
+                    "title":"个人信息修改",
+                    "header":"上传头像",
+                    "header-choose":"选择一张图片",
+                    "background":"上传背景",
+                    "background-choose":"选择一张图片",
+                    "introduction":"个人介绍",
+                    "submit":"提交"
+                }
+            ]
+        },
+        "login":{
+            "signed":"您已经登录了名为 $$name$$ 的用户",
+            "title":"登录",
+            "email":"用户邮箱",
+            "email-placeholder":"请在此输入您的用户邮箱",
+            "password":"用户密码",
+            "password-placeholder":"请在此输入您的用户密码",
+            "submit":"登录",
+            "no-account":"还没有账号? 立即注册!",
+            "password-forget":"忘记了密码? 点此修改!"
+        },
+        "register":{
+            "signed":"您已经登录了名为 $$name$$ 的用户",
+            "title":"注册",
+            "email":"用户邮箱",
+            "email-placeholder":"请在此输入您的用户邮箱",
+            "name":"用户名",
+            "name-placeholder":"请在此输入您的用户名",
+            "password":"用户密码",
+            "password-placeholder":"请在此输入您的用户密码",
+            "repeat-password":"重复密码",
+            "repeat-password-placeholder":"请再次输入您的用户密码",
+            "submit":"注册"
+        },
+        "admin":{
+            "title":"$$name$$ 管理界面",
+            "pages":{
+                "top":"首页",
+                "previous":"上页",
+                "next":"下页",
+                "bottom":"尾页"
+            },
+            "button":{
+                "system":"系统信息",
+                "problem":"题目信息",
+                "contest":"比赛信息",
+                "user":"用户信息",
+                "bash":"在线终端"
+            },
+            "system":{
+                "cpu":{
+                    "title":"CPU 信息",
+                    "name":"CPU 名称",
+                    "cores":"CPU 逻辑处理器数",
+                    "usage":"CPU 使用情况"
+                },
+                "memory":{
+                    "title":"内存信息",
+                    "memory":"运行内存使用情况",
+                    "swap":"交换空间使用情况"
+                },
+                "disk":{
+                    "title":"磁盘信息",
+                    "disk":"磁盘使用情况"
+                },
+                "database":{
+                    "title":"数据库信息",
+                    "version":"版本信息",
+                    "status":"当前状态",
+                    "login":"登录信息",
+                    "databases":"数据库数量",
+                    "tables":"表数量",
+                    "table":"表"
+                },
+                "judger":{
+                    "title":"评测机信息",
+                    "number":"评测机总数",
+                    "online":"在线数量",
+                    "key":"评测机 '$$name$$' 密钥",
+                    "status":"评测机 '$$name$$' 状态"
+                },
+                "php":{
+                    "title":"PHP 信息",
+                    "version":"PHP 版本",
+                    "zend-version":"Zend 版本",
+                    "param":"编译参数",
+                    "system":"编译系统",
+                    "time":"编译时间",
+                    "memory":"PHP 内存",
+                    "peak":"峰值内存"
+                },
+                "crontab":{
+                    "title":"定时任务信息",
+                    "number":"定时任务数量",
+                    "task-id":"任务编号",
+                    "next-execute-time":"下次执行时间",
+                    "task-name":"任务名",
+                    "execute-command":"任务指令",
+                    "run":"执行"
+                },
+                "system":{
+                    "title":"系统信息",
+                    "global":"国际时间(UTC)",
+                    "server":"服务器时间",
+                    "timestamp":"服务器时间戳",
+                    "timezone":"服务器时区",
+                    "name":"系统名称",
+                    "architecture":"系统架构"
+                }
+            },
+            "problem":{
+                "list":{
+                    "search-placeholder":"键入以搜索......",
+                    "tags-filter":"题目标签",
+                    "difficult-filter":"题目难度",
+                    "search-button":"搜索",
+                    "create":"新建题目",
+                    "hidden":"隐藏",
+                    "show":"显示",
+                    "delete":"删除",
+                    "rejudge":"重测",
+                    "update":"修改"
+                },
+                "update":{
+                    "info":"题目基本信息",
+                    "name":"题目名称",
+                    "name-placeholder":"请在此输入题目名称",
+                    "background":"题目背景",
+                    "description":"题目描述",
+                    "io-information":"文件 I/O 信息",
+                    "input-file":"输入文件",
+                    "input-file-placeholder":"请在此输入输入文件名(stdin代表标准输入)",
+                    "output-file":"输出文件",
+                    "output-file-placeholder":"请在此输入输出文件名(stdout代表标准输出)",
+                    "input":"输入描述",
+                    "output":"输出描述",
+                    "sample":"测试样例",
+                    "sample-input":"样例输入",
+                    "sample-output":"样例输出",
+                    "append":"新增样例",
+                    "hint":"数据范围与提示",
+                    "additional":"附加文件",
+                    "additional-upload":"上传文件",
+                    "choose-file":"选择文件",
+                    "others":"其它",
+                    "tags":"题目标签",
+                    "tags-placeholder":"请在此输入题目标签,用 ',' 来分隔它们",
+                    "difficulty":"题目难度",
+                    "data-config":"数据配置",
+                    "upload-data":"上传数据包",
+                    "choose-data":"选择数据包",
+                    "download-data":"下载数据包",
+                    "click-here":"点这里",
+                    "test-case":"测试点",
+                    "time-limit":"时间限制",
+                    "memory-limit":"空间限制",
+                    "score":"测试点分数",
+                    "subtask":"所属子任务",
+                    "one-click":"一键配置",
+                    "subtask-dependence":"子任务依赖",
+                    "spj-config":"SPJ 配置",
+                    "spj-custom":"自定义 SPJ",
+                    "spj-template":"SPJ 模板",
+                    "spj-source":"SPJ 源文件",
+                    "spj-source-placeholder":"请在此输入 SPJ 源文件名",
+                    "spj-command":"SPJ 编译指令",
+                    "spj-command-placeholder":"请在此输入 SPJ 编译指令",
+                    "spj-path":"SPJ 可执行文件名",
+                    "spj-path-placeholder":"请在此输入 SPJ 可执行文件名",
+                    "spj-param":"SPJ 运行参数",
+                    "spj-param-placeholder":"请在此输入 SPJ 运行参数",
+                    "submit":"提交"
+                }
+            },
+            "contest":{
+                "list":{
+                    "create":"新建比赛",
+                    "delete":"删除",
+                    "update":"修改",
+                    "finished":"已结束",
+                    "not-start":"未开始",
+                    "running":"进行中"
+                },
+                "update":{
+                    "title":"比赛信息",
+                    "name":"比赛名称",
+                    "name-placeholder":"请在此输入比赛名称",
+                    "starttime":"比赛开始时间",
+                    "starttime-placeholder":"请在此输入比赛开始时间(例如:$$time$$)",
+                    "endtime":"比赛结束时间",
+                    "endtime-placeholder":"请在此输入比赛结束时间(例如:$$time$$)",
+                    "problem":"题目id",
+                    "problem-placeholder":"请在此输入题目id,用 ',' 来分隔它们",
+                    "tags":"比赛标签",
+                    "tags-placeholder":"请在此输入比赛标签,用 ',' 来分隔它们",
+                    "type":"比赛类型",
+                    "type-oi":"OI 赛制",
+                    "type-ioi":"IOI 赛制",
+                    "type-acm":"ACM 赛制",
+                    "rated":"Rated 类型",
+                    "rated-rated":"Rated 比赛",
+                    "rated-unrated":"Unrated 比赛",
+                    "submit":"提交"
+                }
+            },
+            "user":{
+                "list":{
+                    "search-placeholder":"键入以搜索......",
+                    "search-button":"搜索",
+                    "create":"新建用户",
+                    "rating":"评分",
+                    "unban":"解禁",
+                    "ban":"禁用",
+                    "delete":"删除",
+                    "update":"修改"
+                },
+                "update":{
+
+                }
+            }
+        }
+    }
+}

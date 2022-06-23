@@ -1,0 +1,382 @@
+{
+    "title":{
+        "index":"Index",
+        "problem":"Problem",
+        "contest":"Contest",
+        "status":"Status",
+        "admin":"Admin",
+        "logout":"Logout",
+        "login":"Sign In",
+        "register":"Sign Up",
+        "user":"User",
+        "error":"Error"
+    },
+    "path":{
+        "index":"<i class=\"home icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">Index</div>",
+        "problem":"<i class=\"list icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">Problem</div>",
+        "contest":"<i class=\"calendar icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">Contest</div>",
+        "status":"<i class=\"tasks icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">Status</div>",
+        "admin":"<i class=\"user icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">Admin</div>",
+        "logout":"<i class=\"power icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">Logout</div>",
+        "login":"<i class=\"arrow circle right right icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">Sign In</div>",
+        "register":"<i class=\"hand point right icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">Sign Up</div>"
+    },
+    "pages":{
+        "index":{
+            "announcement":"Announcement"
+        },
+        "problem":{
+            "search-box":{
+                "search-placeholder":"Search something...",
+                "tags-filter":"Tags Filter",
+                "difficult-filter":"Difficulty Filter",
+                "search-button":"Search"
+            },
+            "pages":{
+                "top":"Top",
+                "previous":"Previous",
+                "next":"Next",
+                "bottom":"Bottom"
+            },
+            "simple-info":{
+                "time":"<p style=\"font-size:15px;font-family:'Exo 2'\">Time Limit</p>",
+                "memory":"<p style=\"font-size:15px;font-family:'Exo 2'\">Memory Limit</p>",
+                "input":"<p style=\"font-size:15px;font-family:'Exo 2'\">Input File</p>",
+                "output":"<p style=\"font-size:15px;font-family:'Exo 2'\">Output File</p>",
+                "no-test-data":"<p style=\"font-size:15px;font-family:'Exo 2'\">No Test Data</p>"
+            },
+            "info":{
+                "background":"Background",
+                "description":"Description",
+                "input":"Input",
+                "output":"Output",
+                "sample":"Sample",
+                "sample-input":"Input",
+                "sample-output":"Output",
+                "hint":"Hint",
+                "additional-files":"Additional Files",
+                "submit":"Submit",
+                "my-submit":"My Submit",
+                "language":"Choose Language",
+                "submit-button":"Submit"
+            }
+        },
+        "status":{
+            "search-box":{
+                "user-filter":"User Filter",
+                "user-filter-placeholder":"Input user name here...",
+                "problem-filter":"Problem Filter",
+                "problem-filter-placeholder":"Input problem id here...",
+                "search-button":"search"
+            },
+            "pages":{
+                "top":"Top",
+                "previous":"Previous",
+                "next":"Next",
+                "bottom":"Bottom"
+            },
+            "code":{
+                "code":"Code",
+                "copy":"Copy",
+                "rejudge":"Rejudge"
+            },
+            "compile-info":{
+                "compile-info":"Compile Info"
+            },
+            "info":{
+                "subtask":"Subtask",
+                "subtask-score":"Score",
+                "test-case":"Test Case",
+                "score":"Score",
+                "memory":"Memory",
+                "time":"Time"
+            }
+        },
+        "contest":{
+            "list":{
+                "not-start":"Not Start",
+                "running":"Running",
+                "finished":"Finished",
+                "problem":"$$num$$ Problems"
+            },
+            "pages":{
+                "top":"Top",
+                "previous":"Previous",
+                "next":"Next",
+                "bottom":"Bottom"
+            },
+            "info":{
+                "time":"<p style=\"font-size:15px;font-family:'Exo 2'\">Time</p>",
+                "signup":"<p style=\"font-size:15px;font-family:'Exo 2'\">Sign Up</p>",
+                "problem":"<p style=\"font-size:15px;font-family:'Exo 2'\">Problems</p>",
+                "button":{
+                    "signup":"Sign Up",
+                    "index":"Index",
+                    "problem":"Problem",
+                    "submission":"Submission",
+                    "ranking":"Ranking",
+                    "download-ranking":"Download Ranking"
+                }
+            },
+            "index":{
+                "title":"Index"
+            },
+            "contest":{
+                "rank":"Rank",
+                "username":"Username",
+                "score":"Score",
+                "time":"Penalty"
+            }
+        },
+        "user":{
+            "info":{
+                "submitted":"Submitted $$num$$ Times",
+                "solved":"Solved $$num$$ Problems",
+                "sontest":"Took Part in $$num$$ Contests",
+                "rating":"Rating: $$num$$ (Last Update: $$time$$)"
+            },
+            "button":{
+                "introduction":"Introduction",
+                "solved-problem":"Solved Problems",
+                "contest-history":"Contest History",
+                "setting":"Settings"
+            },
+            "intro":{
+                "none":"<p style=\"font-size:15px\">This user is too lasy to write an introduction</p>"
+            },
+            "problem":{
+                "none":"<p style=\"font-size:15px\">This user is too lasy to solve a problem</p>"
+            },
+            "contest":{
+                "date":"Date",
+                "contest":"Contest",
+                "rank":"Rank",
+                "all":"All",
+                "diff":"Diff",
+                "none":"<p style=\"font-size:15px\">This user is too lasy to join in a contest</p>"
+            },
+            "setting":[
+                {
+                    "title":"Personal Information",
+                    "header":"Upload Header",
+                    "header-choose":"Choose an Image",
+                    "background":"Upload Background",
+                    "background-choose":"Choose an Image",
+                    "introduction":"Introduction",
+                    "submit":"Submit"
+                }
+            ]
+        },
+        "login":{
+            "signed":"Have signed in as $$name$$",
+            "title":"Sign In",
+            "email":"Account Email",
+            "email-placeholder":"Input your email here",
+            "password":"Account Password",
+            "password-placeholder":"Input your password here",
+            "submit":"Login",
+            "no-account":"Don't have an account? Create one!",
+            "password-forget":"Forget your password? Reset it!"
+        },
+        "register":{
+            "signed":"Have signed in as $$name$$",
+            "title":"Sign Up",
+            "email":"Account Email",
+            "email-placeholder":"Input your email here",
+            "name":"Account Name",
+            "name-placeholder":"Input your name here",
+            "password":"Account Password",
+            "password-placeholder":"Input your password here",
+            "repeat-password":"Repeat Password",
+            "repeat-password-placeholder":"Repeat your password here",
+            "submit":"Submit"
+        },
+        "admin":{
+            "title":"$$name$$ Admin Pages",
+            "pages":{
+                "top":"Top",
+                "previous":"Previous",
+                "next":"Next",
+                "bottom":"Bottom"
+            },
+            "button":{
+                "system":"System",
+                "problem":"Problem",
+                "contest":"Contest",
+                "user":"User",
+                "bash":"Bash"
+            },
+            "system":{
+                "cpu":{
+                    "title":"CPU Info",
+                    "name":"CPU Name",
+                    "cores":"CPU Cores",
+                    "usage":"CPU Usage"
+                },
+                "memory":{
+                    "title":"Memory Info",
+                    "memory":"Memory Usage",
+                    "swap":"Swap Usage"
+                },
+                "disk":{
+                    "title":"Disk Info",
+                    "disk":"Disk Usage"
+                },
+                "database":{
+                    "title":"Database Usage",
+                    "version":"Version",
+                    "status":"Status",
+                    "login":"Login",
+                    "databases":"Databases",
+                    "tables":"Tables",
+                    "table":"Table"
+                },
+                "judger":{
+                    "title":"Judger Info",
+                    "number":"Judger",
+                    "online":"Online",
+                    "key":"Judger '$$name$$' Key",
+                    "status":"Judger '$$name$$' Status"
+                },
+                "php":{
+                    "title":"PHP Info",
+                    "version":"PHP Version",
+                    "zend-version":"Zend Version",
+                    "param":"Compile Param",
+                    "system":"Compile System",
+                    "time":"Compile Time",
+                    "memory":"PHP Memory",
+                    "peak":"Peak Memory"
+                },
+                "crontab":{
+                    "title":"Crontab Info",
+                    "number":"Crontab Number",
+                    "task-id":"Task id",
+                    "next-execute-time":"Next Execute Time",
+                    "task-name":"Task Name",
+                    "execute-command":"Execute Command",
+                    "run":"Run"
+                },
+                "system":{
+                    "title":"System Info",
+                    "global":"Global Time(UTC)",
+                    "server":"Server Time",
+                    "timestamp":"Timestamp",
+                    "timezone":"Time Zone",
+                    "name":"Name",
+                    "architecture":"Architecture"
+                }
+            },
+            "problem":{
+                "list":{
+                    "search-placeholder":"Search something...",
+                    "tags-filter":"Tag Filter",
+                    "difficult-filter":"Difficulty Filter",
+                    "search-button":"Search",
+                    "create":"Create a new problem!",
+                    "hidden":"Hidden",
+                    "show":"Show",
+                    "delete":"Del.",
+                    "rejudge":"Rej.",
+                    "update":"Upd."
+                },
+                "update":{
+                    "info":"Problem Info",
+                    "name":"Problem Name",
+                    "name-placeholder":"Input your problem name here",
+                    "background":"Background",
+                    "description":"Description",
+                    "io-information":"I/O Information",
+                    "input-file":"Input File",
+                    "input-file-placeholder":"Input File Name(Input File) here, 'stdin' refers to Standard Input.",
+                    "output-file":"Output File",
+                    "output-file-placeholder":"Input File Name(Output File) here, 'stdout' refers to Standard Output.",
+                    "input":"Input",
+                    "output":"Output",
+                    "sample":"Sample",
+                    "sample-input":"Input",
+                    "sample-output":"Output",
+                    "append":"Append",
+                    "hint":"Hint",
+                    "additional":"Additional Files",
+                    "additional-upload":"Upload a File",
+                    "choose-file":"Choose File",
+                    "others":"Others",
+                    "tags":"Tags",
+                    "tags-placeholder":"Input problem tags here, use ',' to desperate them.",
+                    "difficulty":"Difficulty",
+                    "data-config":"Data Config",
+                    "upload-data":"Upload Data",
+                    "choose-data":"Choose a Data Package",
+                    "download-data":"Download Data",
+                    "click-here":"Click here",
+                    "test-case":"Test Case",
+                    "time-limit":"Time Limit",
+                    "memory-limit":"Memory Limit",
+                    "score":"Score",
+                    "subtask":"Subtask",
+                    "one-click":"One-click Config",
+                    "subtask-dependence":"Subtask Dependence",
+                    "spj-config":"SPJ Config",
+                    "spj-custom":"Custom Special Judge",
+                    "spj-template":"SPJ Template",
+                    "spj-source":"SPJ Source",
+                    "spj-source-placeholder":"Input SPJ Source Path here",
+                    "spj-command":"SPJ Compile Command",
+                    "spj-command-placeholder":"Input SPJ Compile Command here",
+                    "spj-path":"SPJ Path",
+                    "spj-path-placeholder":"Input SPJ Path here",
+                    "spj-param":"SPJ Running Param",
+                    "spj-param-placeholder":"Input SPJ Running Param here",
+                    "submit":"Submit"
+                }
+            },
+            "contest":{
+                "list":{
+                    "create":"Create a new contest!",
+                    "delete":"Delete",
+                    "update":"Update",
+                    "finished":"Finished",
+                    "not-start":"Not Start",
+                    "running":"Running"
+                },
+                "update":{
+                    "title":"Contest Info",
+                    "name":"Contest Name",
+                    "name-placeholder":"Input contest name here",
+                    "starttime":"Start Time",
+                    "starttime-placeholder":"Input start time here(eg:$$time$$)",
+                    "endtime":"End Time",
+                    "endtime-placeholder":"Input end time here(eg:$$time$$)",
+                    "problem":"Problems",
+                    "problem-placeholder":"Input problem id here, use ',' to seperate them.",
+                    "tags":"Tags",
+                    "tags-placeholder":"Input contest tags here, use ',' to seperate them.",
+                    "type":"Contest Type",
+                    "type-oi":"OI",
+                    "type-ioi":"IOI",
+                    "type-acm":"ACM",
+                    "rated":"Rated Type",
+                    "rated-rated":"Rated",
+                    "rated-unrated":"Unrated",
+                    "submit":"Submit"
+                }
+            },
+            "user":{
+                "list":{
+                    "search-placeholder":"Search something...",
+                    "search-button":"Search",
+                    "create":"Create new users!",
+                    "rating":"Rating",
+                    "unban":"Unban",
+                    "ban":"Ban",
+                    "delete":"Delete",
+                    "update":"Update"
+                },
+                "update":{
+
+                }
+            }
+        }
+    }
+}

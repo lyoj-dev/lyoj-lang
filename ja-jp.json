@@ -1,0 +1,382 @@
+{
+    "title":{
+        "index":"トップ",
+        "problem":"問題",
+        "contest":"コンテスト",
+        "status":"提出",
+        "admin":"管理",
+        "logout":"ログアウト",
+        "login":"ログイン",
+        "register":"新規登録",
+        "user":"ユーザー",
+        "error":"エラ"
+    },
+    "path":{
+        "index":"<i class=\"home icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">トップ</div>",
+        "problem":"<i class=\"list icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">問題</div>",
+        "contest":"<i class=\"calendar icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">コンテスト</div>",
+        "status":"<i class=\"tasks icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">提出</div>",
+        "admin":"<i class=\"user icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">管理</div>",
+        "logout":"<i class=\"power icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">ログアウト</div>",
+        "login":"<i class=\"arrow circle right right icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">ログイン</div>",
+        "register":"<i class=\"hand point right icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">新規登録</div>"
+    },
+    "pages":{
+        "index":{
+            "announcement":"システムアナウンス"
+        },
+        "problem":{
+            "search-box":{
+                "search-placeholder":"何かを検索する......",
+                "tags-filter":"タグフィルタ",
+                "difficult-filter":"難易度フィルタ",
+                "search-button":"検索"
+            },
+            "pages":{
+                "top":"トップ",
+                "previous":"前へ",
+                "next":"次へ",
+                "bottom":"最後"
+            },
+            "simple-info":{
+                "time":"<p style=\"font-size:15px;font-family:'Exo 2'\">時間制限</p>",
+                "memory":"<p style=\"font-size:15px;font-family:'Exo 2'\">メモリ制限</p>",
+                "input":"<p style=\"font-size:15px;font-family:'Exo 2'\">入力ファイル</p>",
+                "output":"<p style=\"font-size:15px;font-family:'Exo 2'\">出力ファイル</p>",
+                "no-test-data":"<p style=\"font-size:15px;font-family:'Exo 2'\">データがありません</p>"
+            },
+            "info":{
+                "background":"問題の背景",
+                "description":"問題文",
+                "input":"入力",
+                "output":"出力",
+                "sample":"サンプルをテスト",
+                "sample-input":"入力例",
+                "sample-output":"出力例",
+                "hint":"制約",
+                "additional-files":"ファイルを添付",
+                "submit":"提出",
+                "my-submit":"自分の提出",
+                "language":"言語",
+                "submit-button":"提出"
+            }
+        },
+        "status":{
+            "search-box":{
+                "user-filter":"ユーザ名",
+                "user-filter-placeholder":"ここにユーザー名を入力します",
+                "problem-filter":"問題の番号",
+                "problem-filter-placeholder":"ここに問題の番号を入力します",
+                "search-button":"検索"
+            },
+            "pages":{
+                "top":"トップ",
+                "previous":"前へ",
+                "next":"次へ",
+                "bottom":"最後"
+            },
+            "code":{
+                "code":"コード",
+                "copy":"Copy",
+                "rejudge":"Rejudge"
+            },
+            "compile-info":{
+                "compile-info":"コンパイルエラー"
+            },
+            "info":{
+                "subtask":"サブタスク",
+                "subtask-score":"得点",
+                "test-case":"テストケース",
+                "score":"得点",
+                "memory":"メモリ",
+                "time":"実行時間"
+            }
+        },
+        "contest":{
+            "list":{
+                "not-start":"予定された",
+                "running":"進行中",
+                "finished":"終了",
+                "problem":"問題の数: $$num$$"
+            },
+            "pages":{
+                "top":"トップ",
+                "previous":"前へ",
+                "next":"次へ",
+                "bottom":"最後"
+            },
+            "info":{
+                "time":"<p style=\"font-size:15px;font-family:'Exo 2'\">開始時刻</p>",
+                "signup":"<p style=\"font-size:15px;font-family:'Exo 2'\">登録者数</p>",
+                "problem":"<p style=\"font-size:15px;font-family:'Exo 2'\">問題の数</p>",
+                "button":{
+                    "signup":"参加",
+                    "index":"トップ",
+                    "problem":"問題",
+                    "submission":"提出",
+                    "ranking":"順位表",
+                    "download-ranking":"順位表ダウンロード"
+                }
+            },
+            "index":{
+                "title":"コンテスト情報"
+            },
+            "contest":{
+                "rank":"順位",
+                "username":"ユーザ名",
+                "score":"得点",
+                "time":"ペナルティ"
+            }
+        },
+        "user":{
+            "info":{
+                "submitted":"$$num$$ のサブミッションを合計します",
+                "solved":"$$num$$ の問題を解決しました",
+                "sontest":"$$num$$ コンテストに参加しました",
+                "rating":"現在の評価: $$num$$ (最終更新日: $$time$$)"
+            },
+            "button":{
+                "introduction":"個人的な紹介",
+                "solved-problem":"問題を通過",
+                "contest-history":"コンテスト成績表",
+                "setting":"自分の設定"
+            },
+            "intro":{
+                "none":"<p style=\"font-size:15px\">ユーザーは怠け者で、何も残っていません</p>"
+            },
+            "problem":{
+                "none":"<p style=\"font-size:15px\">ユーザーは怠け者で、何も残っていません</p>"
+            },
+            "contest":{
+                "date":"日付",
+                "contest":"コンテスト",
+                "rank":"順位",
+                "all":"参加者",
+                "diff":"差分",
+                "none":"<p style=\"font-size:15px\">该ユーザーは怠け者で、何も残っていません</p>"
+            },
+            "setting":[
+                {
+                    "title":"基本設定",
+                    "header":"アイコン設定",
+                    "header-choose":"アップロード",
+                    "background":"背景設定",
+                    "background-choose":"アップロード",
+                    "introduction":"個人的な紹介",
+                    "submit":"提出"
+                }
+            ]
+        },
+        "login":{
+            "signed":"$$name$$ という名前のユーザーにサインインしました",
+            "title":"ログイン",
+            "email":"メール",
+            "email-placeholder":"ここにメールボックスを入力してください",
+            "password":"パスワード",
+            "password-placeholder":"ここにパスワードを入力してください",
+            "submit":"ログイン",
+            "no-account":"ユーザーはまだありませんか? 今すぐ登録!",
+            "password-forget":"パスワードをお忘れですか? この変更をポイント!"
+        },
+        "register":{
+            "signed":"$$name$$ という名前のユーザーにサインインしました",
+            "title":"新規登録",
+            "email":"メール",
+            "email-placeholder":"ここにメールボックスを入力してください",
+            "name":"ユーザ名",
+            "name-placeholder":"ここにユーザ名を入力してください",
+            "password":"パスワード",
+            "password-placeholder":"ここにパスワードを入力してください",
+            "repeat-password":"パスワードを繰り返",
+            "repeat-password-placeholder":"パスワードをもう一度入力してください",
+            "submit":"新規登録"
+        },
+        "admin":{
+            "title":"$$name$$ 管理インターフェイス",
+            "pages":{
+                "top":"トップ",
+                "previous":"前へ",
+                "next":"次へ",
+                "bottom":"最後"
+            },
+            "button":{
+                "system":"システム情報",
+                "problem":"トピック情報",
+                "contest":"コンテスト情報",
+                "user":"ユーザー情報",
+                "bash":"オンライン端末"
+            },
+            "system":{
+                "cpu":{
+                    "title":"CPU 情報",
+                    "name":"CPU 名",
+                    "cores":"CPU 論理プロセッサの数",
+                    "usage":"CPU 使用率"
+                },
+                "memory":{
+                    "title":"メモリ情報",
+                    "memory":"メモリ使用量を実行",
+                    "swap":"スワップ領域の使用"
+                },
+                "disk":{
+                    "title":"ディスク情報",
+                    "disk":"ディスクの使用状況"
+                },
+                "database":{
+                    "title":"データベース情報",
+                    "version":"バージョン情報",
+                    "status":"現在の状態",
+                    "login":"ログイン情報",
+                    "databases":"データベース数",
+                    "tables":"テーブル数",
+                    "table":"テーブル"
+                },
+                "judger":{
+                    "title":"評価機情報",
+                    "number":"評価機の総数",
+                    "online":"オンライン数",
+                    "key":"評価機 '$$name$$' キー",
+                    "status":"評価機 '$$name$'ステータス"
+                },
+                "php":{
+                    "title":"PHP 情報",
+                    "version":"PHP バージョン",
+                    "zend-version":"Zend バージョン",
+                    "param":"コンパイルパラメータ",
+                    "system":"コンパイルシステム",
+                    "time":"コンパイル時間",
+                    "memory":"PHP メモリ",
+                    "peak":"ピークメモリ"
+                },
+                "crontab":{
+                    "title":"タイミングタスク情報",
+                    "number":"時間指定タスクの数",
+                    "task-id":"タスク番号",
+                    "next-execute-time":"次の実行時間",
+                    "task-name":"タスク名",
+                    "execute-command":"タスク命令",
+                    "run":"実行"
+                },
+                "system":{
+                    "title":"システム情報",
+                    "global":"国際時間(UTC)",
+                    "server":"サーバー時間",
+                    "timestamp":"サーバーのタイムスタンプ",
+                    "timezone":"サーバーのタイムゾーン",
+                    "name":"システム名",
+                    "architecture":"システムアーキテクチャ"
+                }
+            },
+            "problem":{
+                "list":{
+                    "search-placeholder":"何かを検索する......",
+                    "tags-filter":"タグフィルタ",
+                    "difficult-filter":"難易度フィルタ",
+                    "search-button":"検索",
+                    "create":"新しいタイトル",
+                    "hidden":"非表示",
+                    "show":"表示",
+                    "delete":"削除",
+                    "rejudge":"再テスト",
+                    "update":"変更"
+                },
+                "update":{
+                    "info":"タイトルの基本情報",
+                    "name":"タイトル名" ,
+                    "name-placeholder":"ここにタイトル名を入力してください",
+                    "background":"トピックの背景",
+                    "description":"タイトルの説明",
+                    "io-information":"ファイル I/O 情報",
+                    "input-file":"入力ファイル",
+                    "input-file-placeholder":"ここに入力ファイル名 (stdin は標準入力を表します)",
+                    "output-file":"出力ファイル",
+                    "output-file-placeholder":"ここにファイル名を入出力してください (stdout は標準出力を表します)",
+                    "input":"説明を入力",
+                    "output":"出力の説明",
+                    "sample":"テストサンプル",
+                    "sample-input":"サンプル入力",
+                    "sample-output":"サンプル出力",
+                    "append":"新しいサンプル",
+                    "hint":"データの範囲とヒント",
+                    "additional":"添付ファイル",
+                    "additional-upload":"ファイルをアップロード",
+                    "choose-file":"ファイルを選択",
+                    "others":"その他",
+                    "tags":"タイトルタグ",
+                    "tags-placeholder": "タイトルラベルをここに入力し、',' で区切ります",
+                    "difficulty":"タイトルの難しさ",
+                    "data-config":"データ構成",
+                    "upload-data":"パケットのアップロード",
+                    "choose-data": "パケットの選択",
+                    "download-data":" パケットのダウンロード",
+                    "クリック-here":" ドットここ",
+                    "test-case":"テストポイント",
+                    "time-limit":"時間制限",
+                    "memory-limit":"スペース制限",
+                    "score":"テストポイントスコア",
+                    "subtask":"所属サブタスク",
+                    "one-click":"ワンクリック構成",
+                    "subtask-dependence":"サブタスク依存",
+                    "spj-config":"SPJ 設定",
+                    "spj-custom":"カスタム SPJ",
+                    "spj-template":"SPJ テンプレート",
+                    "spj-source":"SPJ ソースファイル",
+                    "spj-source-placeholder":"SPJ ソースファイル名をここに入力してください",
+                    "spj-command":"SPJ コンパイル命令",
+                    "spj-command-placeholder":"SPJ コンパイル命令をここに入力してください",
+                    "spj-path":"SPJ 実行可能ファイル名",
+                    "spj-path-placeholder":"SPJ 実行可能ファイル名をここに入力してください",
+                    "spj-param":"SPJ 実行パラメータ",
+                    "spj-param-placeholder":"SPJ 実行パラメータをここに入力してください",
+                    "submit":"提出"
+                }
+            },
+            "contest":{
+                "list":{
+                    "create":"新しいコンテスト",
+                    "delete":"削除",
+                    "update":"修正",
+                    "finished":"終了",
+                    "not-start":"予定された",
+                    "running":"進行中"
+                },
+                "update":{
+                    "title":"コンテスト情報",
+                    "name":"コンテスト名",
+                    "name-placeholder":"ここにコンテスト名を入力してください",
+                    "starttime":"開始時刻",
+                    "starttime-placeholder":"ここで開始時間(例: $$time$$)を入力してください",
+                    "endtime":"終了時刻",
+                    "endtime-placeholder":"ここで終了時間(例: $$time$$)を入力してください",
+                    "problem":"タイトル id",
+                    "problem-placeholder":"ここでは、タイトル id を入力し、',' で区切ってください",
+                    "tags":"コンテストタグ",
+                    "tags-placeholder":"ここでレースタグを入力し、',' でそれらを区切ってください",
+                    "type":"レースの種類",
+                    "type-oi":"OI システム",
+                    "type-ioi":"IOI システム",
+                    "type-acm":"ACM レース",
+                    "rated":"Rated 型",
+                    "rated-rated":"Rated レース",
+                    "rated-unrated":"Unrated コンテスト",
+                    "submit":"提出"
+                }
+            },
+            "user":{
+                "list":{
+                    "search-placeholder":"何かを検索する......",
+                    "search-button":"検索",
+                    "create":"新しいユーザー",
+                    "rating":"評価",
+                    "unban":"解禁",
+                    "ban":"無効",
+                    "delete":"削除",
+                    "update":"変更"
+                },
+                "update":{
+
+                }
+            }
+        }
+    }
+}
