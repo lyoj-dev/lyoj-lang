@@ -9,7 +9,8 @@
         "login":"Sign In",
         "register":"Sign Up",
         "user":"User",
-        "error":"Error"
+        "error":"Error",
+        "passwd":"Change Password"
     },
     "path":{
         "index":"<i class=\"home icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">Index</div>",
@@ -121,7 +122,7 @@
             "index":{
                 "title":"Index"
             },
-            "contest":{
+            "ranking":{
                 "rank":"Rank",
                 "username":"Username",
                 "score":"Score",
@@ -132,7 +133,7 @@
             "info":{
                 "submitted":"Submitted $$num$$ Times",
                 "solved":"Solved $$num$$ Problems",
-                "sontest":"Took Part in $$num$$ Contests",
+                "contest":"Took Part in $$num$$ Contests",
                 "rating":"Rating: $$num$$ (Last Update: $$time$$)"
             },
             "button":{
@@ -203,8 +204,7 @@
                 "system":"System",
                 "problem":"Problem",
                 "contest":"Contest",
-                "user":"User",
-                "bash":"Bash"
+                "user":"User"
             },
             "system":{
                 "cpu":{
@@ -263,8 +263,8 @@
                     "server":"Server Time",
                     "timestamp":"Timestamp",
                     "timezone":"Time Zone",
-                    "name":"Name",
-                    "architecture":"Architecture"
+                    "name":"System Name",
+                    "architecture":"System Architecture"
                 }
             },
             "problem":{
@@ -277,11 +277,11 @@
                     "hidden":"Hidden",
                     "show":"Show",
                     "delete":"Del.",
-                    "rejudge":"Rej.",
+                    "rejudge":"Rejudge",
                     "update":"Upd."
                 },
                 "update":{
-                    "info":"Problem Info",
+                    "info":"Problem Information",
                     "name":"Problem Name",
                     "name-placeholder":"Input your problem name here",
                     "background":"Background",
@@ -299,6 +299,7 @@
                     "append":"Append",
                     "hint":"Hint",
                     "additional":"Additional Files",
+                    "delete-additional":"Delete",
                     "additional-upload":"Upload a File",
                     "choose-file":"Choose File",
                     "others":"Others",
@@ -306,7 +307,7 @@
                     "tags-placeholder":"Input problem tags here, use ',' to desperate them.",
                     "difficulty":"Difficulty",
                     "data-config":"Data Config",
-                    "upload-data":"Upload Data",
+                    "upload-data":"Upload a Data Package",
                     "choose-data":"Choose a Data Package",
                     "download-data":"Download Data",
                     "click-here":"Click here",
@@ -341,7 +342,7 @@
                     "running":"Running"
                 },
                 "update":{
-                    "title":"Contest Info",
+                    "title":"Contest Information",
                     "name":"Contest Name",
                     "name-placeholder":"Input contest name here",
                     "starttime":"Start Time",
@@ -374,7 +375,14 @@
                     "update":"Update"
                 },
                 "update":{
-
+                    "title":"User Information",
+                    "name":"Account Name",
+                    "name-placeholder":"Input account name here",
+                    "email":"Account Email",
+                    "email-placeholder":"Input account email here",
+                    "password":"Account Password",
+                    "password-placeholder":"Input account password here",
+                    "submit":"Submit"
                 }
             }
         }

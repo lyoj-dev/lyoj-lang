@@ -9,7 +9,8 @@
         "login":"ログイン",
         "register":"新規登録",
         "user":"ユーザー",
-        "error":"エラ"
+        "error":"エラ",
+        "passwd":"パスワードの変更"
     },
     "path":{
         "index":"<i class=\"home icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">トップ</div>",
@@ -46,7 +47,7 @@
                 "no-test-data":"<p style=\"font-size:15px;font-family:'Exo 2'\">データがありません</p>"
             },
             "info":{
-                "background":"問題の背景",
+                "background":"背景",
                 "description":"問題文",
                 "input":"入力",
                 "output":"出力",
@@ -121,7 +122,7 @@
             "index":{
                 "title":"コンテスト情報"
             },
-            "contest":{
+            "ranking":{
                 "rank":"順位",
                 "username":"ユーザ名",
                 "score":"得点",
@@ -132,7 +133,7 @@
             "info":{
                 "submitted":"$$num$$ のサブミッションを合計します",
                 "solved":"$$num$$ の問題を解決しました",
-                "sontest":"$$num$$ コンテストに参加しました",
+                "contest":"$$num$$ コンテストに参加しました",
                 "rating":"現在の評価: $$num$$ (最終更新日: $$time$$)"
             },
             "button":{
@@ -203,8 +204,7 @@
                 "system":"システム情報",
                 "problem":"トピック情報",
                 "contest":"コンテスト情報",
-                "user":"ユーザー情報",
-                "bash":"オンライン端末"
+                "user":"ユーザー情報"
             },
             "system":{
                 "cpu":{
@@ -299,6 +299,7 @@
                     "append":"新しいサンプル",
                     "hint":"データの範囲とヒント",
                     "additional":"添付ファイル",
+                    "delete-additional":"削除",
                     "additional-upload":"ファイルをアップロード",
                     "choose-file":"ファイルを選択",
                     "others":"その他",
@@ -374,7 +375,14 @@
                     "update":"変更"
                 },
                 "update":{
-
+                    "title":"ユーザー情報",
+                    "name":"ユーザー名",
+                    "name-placeholder":"ここに新しいユーザー名を入力してください",
+                    "email":"ユーザーのメールボックス",
+                    "email-placeholder":"ここに新しいユーザーのメールボックスを入力してください",
+                    "password":"ユーザーパスワード",
+                    "password-placeholder":"ここに新しいユーザーパスワードを入力してください",
+                    "submit":"提出"
                 }
             }
         }

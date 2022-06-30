@@ -9,7 +9,8 @@
         "login":"登录",
         "register":"注册",
         "user":"用户",
-        "error":"错误"
+        "error":"错误",
+        "passwd":"密码修改"
     },
     "path":{
         "index":"<i class=\"home icon\"></i><div style=\"font-size:15px;font-family:'Exo 2'\">首页</div>",
@@ -121,7 +122,7 @@
             "index":{
                 "title":"比赛简介"
             },
-            "contest":{
+            "ranking":{
                 "rank":"排名",
                 "username":"用户名",
                 "score":"得分",
@@ -132,7 +133,7 @@
             "info":{
                 "submitted":"共进行 $$num$$ 次提交",
                 "solved":"解决了 $$num$$ 道问题",
-                "sontest":"参与了 $$num$$ 场比赛",
+                "contest":"参与了 $$num$$ 场比赛",
                 "rating":"当前评分: $$num$$ (上次更新: $$time$$)"
             },
             "button":{
@@ -203,8 +204,7 @@
                 "system":"系统信息",
                 "problem":"题目信息",
                 "contest":"比赛信息",
-                "user":"用户信息",
-                "bash":"在线终端"
+                "user":"用户信息"
             },
             "system":{
                 "cpu":{
@@ -299,6 +299,7 @@
                     "append":"新增样例",
                     "hint":"数据范围与提示",
                     "additional":"附加文件",
+                    "delete-additional":"删除",
                     "additional-upload":"上传文件",
                     "choose-file":"选择文件",
                     "others":"其它",
@@ -374,7 +375,14 @@
                     "update":"修改"
                 },
                 "update":{
-
+                    "title":"用户信息",
+                    "name":"用户名",
+                    "name-placeholder":"请在此输入新用户名",
+                    "email":"用户邮箱",
+                    "email-placeholder":"请在此输入新用户邮箱",
+                    "password":"用户密码",
+                    "password-placeholder":"请在此输入新用户密码",
+                    "submit":"提交"
                 }
             }
         }
