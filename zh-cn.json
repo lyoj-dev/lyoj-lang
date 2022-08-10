@@ -204,7 +204,8 @@
                 "system":"系统信息",
                 "problem":"题目信息",
                 "contest":"比赛信息",
-                "user":"用户信息"
+                "user":"用户信息",
+                "config":"网站配置"
             },
             "system":{
                 "cpu":{
@@ -284,6 +285,8 @@
                     "info":"题目基本信息",
                     "name":"题目名称",
                     "name-placeholder":"请在此输入题目名称",
+                    "pid":"题目id",
+                    "pid-placeholder":"请在此输入题目id",
                     "background":"题目背景",
                     "description":"题目描述",
                     "io-information":"文件 I/O 信息",
@@ -353,6 +356,8 @@
                     "problem-placeholder":"请在此输入题目id,用 ',' 来分隔它们",
                     "tags":"比赛标签",
                     "tags-placeholder":"请在此输入比赛标签,用 ',' 来分隔它们",
+                    "lang":"允许使用的语言",
+                    "lang-placeholder":"请在此输入本次比赛能够使用的语言id,用 ',' 来分隔它们",
                     "type":"比赛类型",
                     "type-oi":"OI 赛制",
                     "type-ioi":"IOI 赛制",
@@ -385,6 +390,16 @@
                     "submit":"提交"
                 }
             }
+        },
+        "passwd":{
+            "title":"密码修改",
+            "email":"用户邮箱",
+            "email-placeholder":"请在此输入您的用户邮箱",
+            "password":"新密码",
+            "password-placeholder":"请在此输入新用户密码",
+            "repeat-password":"重复密码",
+            "repeat-password-placeholder":"请再次输入您的用户密码",
+            "submit":"提交"
         }
     }
 }

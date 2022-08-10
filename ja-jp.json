@@ -204,7 +204,8 @@
                 "system":"システム情報",
                 "problem":"トピック情報",
                 "contest":"コンテスト情報",
-                "user":"ユーザー情報"
+                "user":"ユーザー情報",
+                "config":"Config"
             },
             "system":{
                 "cpu":{
@@ -284,6 +285,8 @@
                     "info":"タイトルの基本情報",
                     "name":"タイトル名" ,
                     "name-placeholder":"ここにタイトル名を入力してください",
+                    "pid":"Problem id",
+                    "pid-placeholder":"Input problem id here...",
                     "background":"トピックの背景",
                     "description":"タイトルの説明",
                     "io-information":"ファイル I/O 情報",
@@ -309,8 +312,8 @@
                     "data-config":"データ構成",
                     "upload-data":"パケットのアップロード",
                     "choose-data": "パケットの選択",
-                    "download-data":" パケットのダウンロード",
-                    "クリック-here":" ドットここ",
+                    "download-data":"パケットのダウンロード",
+                    "click-here":"ドットここ",
                     "test-case":"テストポイント",
                     "time-limit":"時間制限",
                     "memory-limit":"スペース制限",
@@ -353,6 +356,8 @@
                     "problem-placeholder":"ここでは、タイトル id を入力し、',' で区切ってください",
                     "tags":"コンテストタグ",
                     "tags-placeholder":"ここでレースタグを入力し、',' でそれらを区切ってください",
+                    "lang":"Accepted Languages",
+                    "lang-placeholder":"Input language that can used in contest here, use ',' to seperate them.",
                     "type":"レースの種類",
                     "type-oi":"OI システム",
                     "type-ioi":"IOI システム",
@@ -385,6 +390,16 @@
                     "submit":"提出"
                 }
             }
+        },
+        "passwd":{
+            "title":"パスワードの変更",
+            "email":"メール",
+            "email-placeholder":"ここにメールボックスを入力してください",
+            "password":"パスワード",
+            "password-placeholder":"ここに新しいユーザーパスワードを入力してください",
+            "repeat-password":"パスワードを繰り返",
+            "repeat-password-placeholder":"パスワードをもう一度入力してください",
+            "submit":"提出"
         }
     }
 }

@@ -204,7 +204,8 @@
                 "system":"System",
                 "problem":"Problem",
                 "contest":"Contest",
-                "user":"User"
+                "user":"User",
+                "config":"Config"
             },
             "system":{
                 "cpu":{
@@ -284,6 +285,8 @@
                     "info":"Problem Information",
                     "name":"Problem Name",
                     "name-placeholder":"Input your problem name here",
+                    "pid":"Problem id",
+                    "pid-placeholder":"Input problem id here",
                     "background":"Background",
                     "description":"Description",
                     "io-information":"I/O Information",
@@ -353,6 +356,8 @@
                     "problem-placeholder":"Input problem id here, use ',' to seperate them.",
                     "tags":"Tags",
                     "tags-placeholder":"Input contest tags here, use ',' to seperate them.",
+                    "lang":"Accepted Languages",
+                    "lang-placeholder":"Input language that can used in contest here, use ',' to seperate them.",
                     "type":"Contest Type",
                     "type-oi":"OI",
                     "type-ioi":"IOI",
@@ -385,6 +390,16 @@
                     "submit":"Submit"
                 }
             }
+        },
+        "passwd":{
+            "title":"Forget Password",
+            "email":"Account Email",
+            "email-placeholder":"Input account email here",
+            "password":"Account Password",
+            "password-placeholder":"Input your password here",
+            "repeat-password":"Repeat Password",
+            "repeat-password-placeholder":"Repeat your password here",
+            "submit":"Submit"
         }
     }
 }
